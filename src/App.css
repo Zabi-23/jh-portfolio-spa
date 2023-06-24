@@ -58,6 +58,41 @@ ul > a > li {
   color: var(--delft-blue);
   background-color: var(--sunset);
 }
+
+.img-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid red;
+  position: relative;
+}
+.img-card1,
+.img-card2,
+.img-card3 {
+  height: 4rem;
+  width: 4rem;
+}
+
+.img-card1 {
+  transform: rotate(-30deg);
+  background-color: red;
+  position: relative;
+  top: 0; left: 20px;
+}
+.img-card2 {
+  transform: rotate(0deg);
+  background-color: green;
+  position: relative;
+  top: 20; left: -30px;
+}
+.img-card3 {
+  transform: rotate(30deg);
+  background-color: blue;
+  position: relative;
+  top: 40; left: -80px;
+}
+
+
 .section2 {
   color: var(--eggshell);
   background-image: linear-gradient(286deg,#a4508b 0%,#5f0a87)!important;
