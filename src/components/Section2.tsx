@@ -1,6 +1,6 @@
 const Section2 = () => {
   return (
-    <div className="section2">
+    <div className="section section2">
       <div className="img-cards">
         <div className="img-card1">Image 1</div>
         <div className="img-card2">Image 2</div>

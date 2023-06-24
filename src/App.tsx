@@ -10,12 +10,14 @@ function App() {
 
   return (
     <>
+      <div className="container">
       <Navbar />
       <Header />
-      <Quiz />
-      <Section2 />
-      <Section3 />
+        <Quiz />
+        <Section2 />
+        <Section3 />
       <Footer />
+      </div>
     </>
   )
 }
