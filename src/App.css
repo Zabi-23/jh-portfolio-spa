@@ -91,23 +91,40 @@ ul > a > li {
   width: 4rem;
 }
 
+.img-card1:hover,
+.img-card2:hover,
+.img-card3:hover {
+  background-color: yellow;
+}
+
 .img-card1 {
   transform: rotate(-30deg);
   background-color: red;
   position: relative;
   top: 0; left: 20px;
 }
+.img-card1:hover {
+  transform: rotate(-30deg) scale(1.15);
+}
+
 .img-card2 {
   transform: rotate(0deg);
   background-color: green;
   position: relative;
   top: 20; left: -30px;
 }
+.img-card2:hover {
+  transform: rotate(0deg) scale(1.15);
+}
+
 .img-card3 {
   transform: rotate(30deg);
   background-color: blue;
   position: relative;
   top: 40; left: -80px;
+}
+.img-card3:hover {
+  transform: rotate(30deg) scale(1.15);
 }
 
 .section3 {
