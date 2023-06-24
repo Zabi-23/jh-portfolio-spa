@@ -21,7 +21,7 @@ const quiz = quizData[index]
 return (
       <div className="img-carousel">
         <button onClick={handlePrevClick}>Next image</button>
-        <div className="img-1"><h1>{quiz.image}, {quizData.length}</h1></div>
+        <div className="img-1"><h1>[GALLERY background {quiz.image}]</h1></div>
         <button onClick={handleNextClick}>Next image</button>
       </div>
   )
