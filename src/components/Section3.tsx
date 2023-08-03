@@ -1,10 +1,17 @@
 const Section3 = () => {
   return (
-    <div className="section section3">
-    <h1>Section 3</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat eum, in, vel sed quia ad culpa magni, quam quisquam repellendus quasi? At nemo perferendis distinctio amet, a iusto molestiae ex.</p>
-  </div>
-  )
-}
+    <div className="section">
+        <h1>Section 3</h1>
+      <div className="section3">
+        <div className="drum-machine-container">
+          <p>Drum Machine</p>
+        </div>
+        <div className="quote-machine-container">
+          <p>Qoute Machine</p>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Section3
+export default Section3;

@@ -133,10 +133,21 @@ ul > a > li {
   transform: rotate(30deg) scale(1.15);
 }
 
+/* duo project */
 .section3 {
-  color: whitesmoke;
-  background-color: #0077b6;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
 }
+.package-tracker-container {
+  background-color: whitesmoke;
+  width: 50vw;
+}
+.quote-machine-container {
+  background-color: blue;
+  width: 50vw;
+}
+
 .footer {
   height: 8rem;
   display: flex;
