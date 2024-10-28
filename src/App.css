@@ -33,7 +33,7 @@ h1, h3 {
 }
 
 .navbar {
-  background-color: var(--delft-blue);
+  background-color: var(--cambridge-blue);
   color: var(--eggshell);
   height: 3rem;
   display: flex;
@@ -47,7 +47,7 @@ h1, h3 {
   gap: .5rem;
   color: black;
   height: 5rem;
-  background-color: yellow;
+  background-color: rgb(102, 0, 255);
 }
 
 ul > a > li {
