@@ -47,7 +47,7 @@ h1, h3 {
   gap: .5rem;
   color: black;
   height: 5rem;
-  background-color: var(--burnt-sienna);
+  background-color: yellow;
 }
 
 ul > a > li {
@@ -68,7 +68,7 @@ ul > a > li {
 /* Section -- WEBSHOP -- */
 .section1 {
   color: var(--delft-blue);
-  background-color: var(--sunset);
+  background-color: lawngreen;
 }
 
 /* Section -- WEBSHOP -- */
